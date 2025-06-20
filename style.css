@@ -1,0 +1,39 @@
+.main-image-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.register-image {
+  height: 500px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.register-image:hover {
+  transform: scale(1.03);
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid-row img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
