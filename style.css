@@ -1,3 +1,35 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0;
+  z-index: 1000;
+}
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, blockquote {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .main-image-row {
     flex-direction: column;
