@@ -1,2 +1,2 @@
-# pgtutorials
-pg tutorials, home tuition classes.
+# PG TUTORIALS
+Home tuition classes.
